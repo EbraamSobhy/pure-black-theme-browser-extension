@@ -1,0 +1,95 @@
+/* Base styles */
+html,
+body {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Make sure container divs don't block out images or videos */
+div:has(img),
+div:has(video),
+picture {
+    background-color: transparent !important;
+}
+
+/* Links */
+a {
+    color: #4da3ff !important;
+}
+
+/* 1. White border around Search Bar */
+form[action="/search"],
+input[type="text"],
+.RNNXbe {
+    background-color: #000 !important;
+}
+
+/* 2. Fix Google Search Categories (Images, Videos, News, etc.) */
+/* This targets Google's modern top category tabs */
+.crJ7ne,
+.O3S7Gr,
+.hdtb-mitem,
+[role="listitem"] {
+    background-color: transparent !important;
+}
+
+.crJ7ne a,
+.O3S7Gr a,
+.hdtb-mitem a {
+    color: #fff !important;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+/* Gray hover effect for search categories */
+.crJ7ne a:hover,
+.O3S7Gr a:hover,
+.hdtb-mitem a:hover,
+[role="listitem"] a:hover {
+    background-color: #333333 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* Active/Selected category tab */
+.Ymvw0,
+.hdtb-msel {
+    color: #4da3ff !important;
+    /* Blue accent for the active tab */
+    border-bottom: 3px solid #4da3ff !important;
+}
+
+/* 3. Keep images and videos untouched */
+img,
+video {
+    background: transparent !important;
+    filter: brightness(0.95);
+}
+
+/* Force search result boxes and hover states to stay solid black */
+.g,
+.MjjYud,
+.hlcw3c,
+.Ww4FFb,
+.vt6azd,
+[role="row"],
+[role="presentation"] {
+    background-color: #000000 !important;
+}
+
+/* Fix Google Autocomplete / Search Dropdown suggestions on hover */
+ul[role="listbox"] li:hover,
+.wM6W7d:hover,
+.sbrow:hover,
+.znjbW:hover {
+    background-color: #1a1a1a !important;
+    /* Slightly lighter black/dark gray so you can see what you are selecting */
+}
+
+/* Main search result link container hovers */
+.yuRUbf:hover,
+.kvH3Id:hover,
+a:hover {
+    background-color: #000000 !important;
+}
