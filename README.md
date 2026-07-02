@@ -1,4 +1,4 @@
-# Pure Black Theme for Google Search
+# Pure Black Theme Browser Extension for Google Search
 
 A lightweight browser extension that transforms **Google Search** into a **true pure black theme (#000000)** while preserving images, videos, and overall usability.
 
