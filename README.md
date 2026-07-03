@@ -41,7 +41,7 @@ Google Search is transformed from Google's default dark gray interface into a cl
 1. Download or clone this repository.
 
 ```bash
-git clone https://github.com/yourusername/pure-black-theme.git
+git clone https://github.com/EbraamSobhy/pure-black-theme.git
 ```
 
 2. Open your browser.
